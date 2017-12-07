@@ -1,0 +1,14 @@
+.heading__primary {
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    animation: moveInLeft 1s linear;
+  }
+
+  &--sub {
+    display: block;
+    animation: moveInRight 1s linear;
+  }
+}
